@@ -32,7 +32,7 @@ Para garantir a qualidade, manutenibilidade e escalabilidade do projeto, as segu
 1.  Clone este repositório para a sua máquina local:
 
     ```bash
-    git clone <https://github.com/CezarMNeto/desafio-tecnico-qa>
+    git clone https://github.com/CezarMNeto/desafio-tecnico-qa
     ```
 
 2.  Navegue até o diretório do projeto:
