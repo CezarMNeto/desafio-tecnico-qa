@@ -9,6 +9,6 @@ Funcionalidade: Jornada de Compra de Usuário
   Cenário: Realizar uma compra com sucesso
     Dado que eu esteja na página de login
     Quando eu realizar o login com um usuário válido
-    E eu buscar pelo produto "Printed Dress"
+    E eu buscar pelo produto "Men Tshirt"
     E eu adicionar o primeiro produto da busca ao carrinho
-    Então eu devo visualizar o produto "Printed Dress" na tela de pagamento
+    Então eu devo visualizar o produto "Men Tshirt" na tela de pagamento

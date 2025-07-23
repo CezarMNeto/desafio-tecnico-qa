@@ -10,6 +10,6 @@ Then('o status code da resposta deve ser {int}', (statusCode) => {
 });
 
 Then('o campo {string} dentro de {string} no corpo da resposta deve ser {string}', (field, parent, value) => {
-    cy.get('@apiResponse').its(`body.${parent}.${field}`).should('eq', value);
+    cy.get('@apiResponse').its(`body.data.${parent}.${field}`).should('eq', value);
 }
 );

@@ -1,9 +1,10 @@
 class SearchResultPage {
-    addProductToCart() {
+    addProductToCart(productName) {
+
         // Clica em "Add to cart" no primeiro produto da lista
-        cy.get('.product_list .ajax_add_to_cart_button').first().click();
+        cy.get(':nth-child(3) > .product-image-wrapper > .single-products > .productinfo > .btn').click();
         // Clica para prosseguir para o checkout na janela modal
-        cy.get('.button-container a[title="Proceed to checkout"]').should('be.visible').click();
+        cy.get('u').should('be.visible').click();
     }
 }
 

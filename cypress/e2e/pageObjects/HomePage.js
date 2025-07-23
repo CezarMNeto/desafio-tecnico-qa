@@ -1,7 +1,11 @@
 class HomePage {
     searchForProduct(productName) {
-        cy.get('#search_query_top').type(productName);
-        cy.get('button[name="submit_search"]').click();
+        // Clica no menu product
+        cy.get('.shop-menu > .nav > :nth-child(2) > a').click();
+        // Clica no campo de busca e insere o nome do produto
+        cy.get('#search_product').type(productName)
+        // Clica na lupa para realizar a busca
+        cy.get('#submit_search').click()
     }
 }
 

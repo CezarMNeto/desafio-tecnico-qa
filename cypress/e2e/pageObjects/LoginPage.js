@@ -1,18 +1,18 @@
 class LoginPage {
     visit() {
-        cy.visit('?controller=authentication&back=my-account');
+        cy.visit('https://www.automationexercise.com/login');
     }
 
     fillEmail(email) {
-        cy.get('#email').should('be.visible').type(email);
+        cy.get('[data-qa="login-email"]').should('be.visible').type(email);
     }
 
     fillPassword(password) {
-        cy.get('#passwd').should('be.visible').type(password);
+        cy.get('[data-qa="login-password"]').should('be.visible').type(password);
     }
 
     submit() {
-        cy.get('#SubmitLogin').click();
+        cy.get('[data-qa="login-button"]').click();
     }
 }
 

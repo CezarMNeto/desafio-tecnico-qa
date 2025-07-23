@@ -9,4 +9,4 @@ Funcionalidade: Validação da API Trello
   Cenário: Validar o nome da lista de uma ação
     Quando eu enviar uma requisição GET para o endpoint de ações do Trello
     Então o status code da resposta deve ser 200
-    E o campo "name" dentro de "list" no corpo da resposta deve ser "To Do"
+    E o campo "name" dentro de "list" no corpo da resposta deve ser "Professional"
