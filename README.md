@@ -38,7 +38,7 @@ Para garantir a qualidade, manutenibilidade e escalabilidade do projeto, as segu
 2.  Navegue até o diretório do projeto:
 
     ```bash
-    cd desafio-qa-f1rst
+    cd desafio-tecnico-qa
     ```
 
 3.  Instale todas as dependências do projeto:
