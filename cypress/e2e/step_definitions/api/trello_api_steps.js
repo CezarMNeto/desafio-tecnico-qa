@@ -1,5 +1,5 @@
 import { When, Then } from '@badeball/cypress-cucumber-preprocessor';
-import TrelloAPIService from '../services/TrelloAPIService';
+import TrelloAPIService from '../../../support/services/TrelloAPIService.js';
 
 When('eu enviar uma requisição GET para o endpoint de ações do Trello', () => {
     TrelloAPIService.getActionDetails().as('apiResponse');

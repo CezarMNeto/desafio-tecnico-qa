@@ -7,8 +7,7 @@ Funcionalidade: Jornada de Compra de Usuário
 
   @JornadaCompleta
   Cenário: Realizar uma compra com sucesso
-    Dado que eu esteja na página de login
-    Quando eu realizar o login com um usuário válido
+    Dado que eu esteja logado com um usuário válido
     E eu buscar pelo produto "Men Tshirt"
     E eu adicionar o primeiro produto da busca ao carrinho
     Então eu devo visualizar o produto "Men Tshirt" na tela de pagamento

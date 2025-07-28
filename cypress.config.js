@@ -9,7 +9,7 @@ const {
 module.exports = defineConfig({
   e2e: {
     // URL base do site de automação
-    baseUrl: 'https://www.automationexercise.com/login',
+    baseUrl: 'https://www.automationexercise.com',
     // Define o padrão para encontrar os arquivos de feature
     specPattern: '**/*.feature',
     async setupNodeEvents(on, config) {
