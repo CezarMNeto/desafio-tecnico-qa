@@ -1,7 +1,7 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
-import HomePage from '../../pageObjects/HomePage';
-import SearchResultPage from '../../pageObjects/SearchResultPage';
-import CheckoutPage from '../../pageObjects/CheckoutPage';
+import HomePage from '../../../support/pageObjects/HomePage';
+import SearchResultPage from '../../../support/pageObjects/SearchResultPage';
+import CheckoutPage from '../../../support/pageObjects/CheckoutPage';
 
 Given('que eu esteja logado com um usuário válido', () => {
     cy.fixture('users.json').then((user) => {
