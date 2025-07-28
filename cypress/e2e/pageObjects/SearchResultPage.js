@@ -1,10 +1,9 @@
 class SearchResultPage {
-    addProductToCart(productName) {
+    addFirstProductToCart() {
 
-        // Clica em "Add to cart" no primeiro produto da lista
-        cy.get(':nth-child(3) > .product-image-wrapper > .single-products > .productinfo > .btn').click();
-        // Clica para prosseguir para o checkout na janela modal
-        cy.get('u').should('be.visible').click();
+        cy.get('.productinfo .btn').first().click();
+
+        cy.contains('a', 'View Cart').click();
     }
 }
 
